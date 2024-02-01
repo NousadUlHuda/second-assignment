@@ -1,0 +1,517 @@
+
+/* common styles */
+.common-styles{
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+/* title bar styles */
+.title-container{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 8px;
+    padding-bottom: 0px;
+}
+
+.unique{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 36px;
+    font-weight: 800;
+    margin-top: 0px;
+    }
+
+.travel{
+    color: #FF5400;
+    font-size: 36px;
+    font-weight: 800;
+    margin-top: 0px;
+
+}
+.img{
+    width: 50%;
+    height: 50%;
+    margin-top: 0px;
+    
+}
+
+.title{
+    display: flex;
+   justify-content: center;
+    gap: 10px;
+    margin-left: 60px;
+}
+
+.title-bar{
+    display: flex;
+}
+
+.title-bar > ul{
+    display: flex;
+    align-items: center;
+    padding: 0px 250px;
+}
+.title-bar li{
+    list-style: none;
+    margin-right: 20px;
+    
+}
+
+.title-bar a{
+    text-decoration: none;
+}
+
+
+/* header related styles */
+
+.header-class{
+    height: 500px;
+    width: 1100px;
+    background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    justify-content: center;
+    background-position-x: center;
+
+}
+
+.explore-your-travel{
+    
+    text-align: center;
+    gap: 3px;
+}
+.explore-your-travel h1{
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 800;
+    padding: 106px 287px 0px 287px;
+    border-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.explore-your-travel p{
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0px 270px;
+    
+}
+
+.box-btn{
+    display: flex;
+    margin-left: 150px;
+    margin-top: 30px;
+    align-items: center;
+    width: 820px;
+    
+}
+.box{
+   display: flex;
+    
+}
+.hox-holder{
+    padding: 12px 30px 12px 10px;
+    border-radius: 8px;
+    border: none;
+    margin-right: 24px;
+    
+}
+
+.btn-primary{
+    padding: 9px 20px;
+    font-size: 12px;
+    font-weight: 200;
+    border-radius: 8px;
+    border: 0px;
+    background-color: #ff6416;
+}
+
+
+/* Our popular tour related styles */
+.popular-tour-container{
+    margin-left: 60px;
+    display: flex;
+    margin-bottom: 40px;
+}
+.tour-content{
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    padding-right: 53px;
+    max-width: 500px;
+    padding-bottom: 10px;
+}
+.img-content{
+    width: 480px;
+    height: 490px;
+}
+
+.li-content{
+    margin-bottom: 18px;
+}
+
+.p-content{
+    margin-top: 24px;
+    gap: 5px;
+}
+
+.title-content{
+    color: #131318;
+    text-align: justify;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 0px;
+}
+
+.img-container{
+    margin-left: 60px;
+    margin-right: 60px;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 48px;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+}
+
+.image-content > div{
+    flex: 1;
+}
+
+.image-content{
+    padding-right: 30px;
+    margin-top: 30px;
+}
+
+.image-content1{
+    display: flex;
+    gap: 5px;
+    margin-top: 5px;
+}
+
+.destination{
+    text-align: center;
+}
+
+.destination-p{
+    max-width: 530px;
+    text-align: center;
+    margin-left: 320px;
+    
+}
+.dolar{
+    
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 12px;
+    
+}
+
+
+
+
+.my-choose{
+    max-width: 530px;
+    margin-left: 320px;
+    
+}
+
+.my-choose h1{
+    text-align: center;
+}
+
+.hotel-container > div{
+    text-align: center;
+}
+.hotel{
+    width: 500px;
+    padding: 30px 32px 20px 32px;
+    
+}
+
+.hotel-address{
+    display: flex;
+    
+    
+}
+
+.title-hotel{
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.hotel-paragraph{
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+.best-price{
+    width: 600px;
+    justify-content: center;
+    margin-left: 270px;
+}
+
+
+.newsletter-container{
+    display: flex;
+    margin-left: 60px;
+    gap: 40px;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+.newsletter{
+    border-radius: 8px;
+    border: 2px solid #FF5400;
+    gap: 10px;
+    padding: 30px;
+}
+
+.newsletter-title{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.newspaper-paragraph{
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.input{
+    padding: 16px 150px 16px 12px;
+    border-radius: 9px;
+    border: 0px;
+}
+
+.deal-container{
+    margin-top: 60px;
+}
+
+.deal-title{
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.deal-paragraph{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 350px;
+    width: 500px;
+}
+
+.btn-primary2{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 10px 140px;
+    background: #FF5400;
+    border: 0px;
+    border-radius: 7px;
+    
+}
+
+.travel-com{
+    border-radius: 8px;
+    background: #48ff0070;
+    color: rgb(228, 228, 228);
+    width: 290px;
+    padding: 2px 5px;
+    text-align: center;
+    position: relative;
+    bottom: 190px;
+    margin-left: 360px;
+    transform: rotate(-45deg);
+
+}
+
+.travel-com p{
+    margin-bottom: 0px;
+}
+.travel-com h3{
+    margin-top: 5px;
+    font-size: 25px;
+}
+
+
+/* footer relateed style */
+
+.img2{
+    height: 45px;
+    width: 45px;
+}
+
+.last-paragraph{
+    justify-content: center;
+    margin-left: 40px;
+    margin-top: 0px;
+   
+}
+
+.link-div img{
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+}
+
+.link-div{
+    margin-left: 570px;
+}
+.last-section{
+    margin-bottom: 50px;
+}
+
+.rights{
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+
+
+
+
+@media screen and (max-width: 576px) {
+
+    .title-container{
+        display: block;
+    }
+    .title{
+        justify-items: auto;
+        margin-left: 0px;
+    }
+    .title-bar{
+        justify-content: center;
+    }
+    .img{
+        width: 10%;
+        height: 10%;
+    }
+
+    .header-class{
+        height: 100%;
+        width: 100%;
+    }
+
+    .explore-your-travel h1{
+        padding: 0px;
+    }
+    
+    .header-class{
+        background-size: auto;
+    }
+    .explore-your-travel p{
+        padding: 0px 50px;
+
+    }
+    .box-btn{
+        margin-left: 0px;
+        display: block;
+        margin-bottom: 20px;
+        margin-left: 160px;
+        border-bottom: px;
+        
+    }
+
+    .hox-holder{
+        margin-top: 10px;
+        justify-content: center;
+    }
+
+    .box{
+        display: block;
+        
+    }
+
+.box > div{
+    margin-bottom: 25px;
+    
+    
+}
+.btn-primary{
+    margin-left: 60px;
+}
+
+.popular-tour-container{
+    display: block;
+    margin-left: 5px;
+}
+
+.destination-p{
+    
+}
+.destination-p{
+    margin-left: 5px;
+}
+
+.image-content1{
+    display: block;
+}
+
+.my-choose{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.hotel-address{
+    display: block;
+ }
+
+ .hotel-paragraph{
+    margin-right: 10px;
+ }
+ .best-price{
+   margin-left: 10px;
+   padding-right: 20px;
+   width: 550px;
+    
+ }
+ .hotel-paragraph{
+    margin-right: 20px;
+   
+ }
+ .deal-paragraph{
+    padding-left: 10px;
+
+ }
+
+ .newsletter-container{
+    display: block;
+ }
+ .travel-com{
+    margin-left: 190px;
+ }
+ .link-div{
+    margin-left: 220px;
+ }
+ .hotel-paragraph{
+    margin-right: 30px;
+ }
+}
